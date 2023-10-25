@@ -19,42 +19,108 @@
 
     <body>
         
+        
         <div class="container" style="width: 100%; text-align: center;">
-            <h1 style="float: left;">Forro Sustentável</h1>
-            <img src="./img/fundo.png" height="200">
+            <div class="header" >
+                <img src="img\logo.jpeg" class="header_icon">
+                <h2>Forro Sustentável</h2>
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                      <button class="nav-link" id="nav-como-reciclar-tab" data-bs-toggle="tab" data-bs-target="#nav-como-reciclar" type="button" role="tab" aria-controls="nav-como-reciclar" aria-selected="false">Como reciclar</button>
+                      <button class="nav-link" id="nav-como-doar-tab" data-bs-toggle="tab" data-bs-target="#nav-como-doar" type="button" role="tab" aria-controls="nav-como-doar" aria-selected="false">Como doar</button>
+                      <button class="nav-link" id="nav-quem-somos-tab" data-bs-toggle="tab" data-bs-target="#nav-quem-somos" type="button" role="tab" aria-controls="nav-quem-somos" aria-selected="false">Quem somos</button>
+                    </div>
+                  </nav>
+            </div>
         
             <div class="break"></div> <!-- break -->
 
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                  <button class="nav-link" id="nav-quem-somos-tab" data-bs-toggle="tab" data-bs-target="#nav-quem-somos" type="button" role="tab" aria-controls="nav-quem-somos" aria-selected="false">Quem somos</button>
-                  <button class="nav-link" id="nav-como-doar-tab" data-bs-toggle="tab" data-bs-target="#nav-como-doar" type="button" role="tab" aria-controls="nav-como-doar" aria-selected="false">Como doar</button>
-                  <button class="nav-link" id="nav-como-reciclar-tab" data-bs-toggle="tab" data-bs-target="#nav-como-reciclar" type="button" role="tab" aria-controls="nav-como-reciclar" aria-selected="false">Como reciclar</button>
-                </div>
-              </nav>
+              
               <div class="tab-content" id="nav-tabContent">
 
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    <div class="container img-fundo"></div>
+                    <br>
+                    <div class="row align-items-start">
+                        <div class="col-6">
+                            <span>Nosso site foi desenvolvido para informar e orientar sobre reaproveitamento, 
+                                reciclagem, fabricação e execução de materiais produzidos a partir de resíduos 
+                                que são descartados de forma incorreta. 
+                            </span>
+                        </div>
+                        <div class="col-6">
+                            <p> Devido a preocupação com o descarte incorreto da caixa de leite, surgiu a 
+                                ideia de criar um site que oriente as pessoas não somente na correção de 
+                                descarte de resíduos, mas também com informações sobre os mesmos.
+                                Há período de decomposição tardio causando ainda mais impactos ao meio 
+                                ambiente.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="tab-pane fade" id="nav-como-doar" role="tabpanel" aria-labelledby="nav-como-doar-tab" tabindex="0">
+                    <div class="container text-center">
+                        <div class="row mt-3">
+                            <div class="col">
+                                Para doar itens de caixas de leite, abaixo estão os principais pontos de Coleta Seletiva são:
+    
+                            <u>
+                                <li>1-Praça Da República - Campina</li>
+                                <li>2-Praça Batista Campos - Batista Campos</li>
+                                <li>3-Praça Dom Pedro - Cidade Velha</li>
+                                <li>4-Praça Amazonas - Jurunas</li>
+                                <li>5-Praça Floriano Peixoto - São Braz</li>
+                            </u>
+                            
+                            
+                            </div>
+                            <div class="col">
+                                O Serviço da Prefeitura de Belém acontece de segunda a Sábado Das 08H Às 12H:<br>
+                                <a href="https://semma.belem.pa.gov.br/tabela-de-coleta-seletiva/"
+                                    target="_blank">Mapa de Coleta Seletiva</a>
+                              </div>
+                            
+                        </div>
+                        
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-como-reciclar" role="tabpanel" aria-labelledby="nav-como-reciclar-tab" tabindex="0">
+                    <div class="container">
+                        <img id="orientacao-descarte" src="img/orientacao-descarte.png">
+                        <img id="estudo-cientifico" src="img/estudo-cientifico.png">
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="nav-quem-somos" role="tabpanel" aria-labelledby="nav-quem-somos-tab" tabindex="0">
-                    here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                </div>
-
-                <div class="tab-pane fade" id="nav-como-doar" role="tabpanel" aria-labelledby="nav-como-doar-tab" tabindex="0">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </div>
-                <div class="tab-pane fade" id="nav-como-reciclar" role="tabpanel" aria-labelledby="nav-como-reciclar-tab" tabindex="0">
-                    dsdasdadad
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div>
+                                <span>Nosso site tem como objetivo ser um
+                                    meio de comunicação para orientar as
+                                    pessoas e auxilia-las a nos ajudar na coleta
+                                    destes materiais reutilizaveis.
+                                    Queremos conscientizar as pessoas por
+                                    intermédio de nossas informações e ações.
+                                    O local aderido como ponto de coleta
+                                    será na Universidade UNAMA.
+                                    Site UNAMA: https://www.unama.br/in
+                                    stitucional/nacional</span>
+                            </div>
+                            <img src="img/objetivo.png" >
+                            
+                        </div>
+                    </div>
+                    
+                    <br>
                 </div>
               </div>
               
             
             
         </div>
-
     </body>
 
 </html>
